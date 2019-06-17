@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Crystal Collector</title>
+
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Crystal Collector</h1>
+
+    <div class="container">
+      <p id="wins">Wins:</p>
+
+      <p id="losses">Losses:</p>
+
+      <p id="playerTotal">Total So Far:</p>
+
+      <div class="crystals">
+        <div id="redcrystal">
+          <div id="bluecrystal">
+            <div id="purplecrystal">
+              <div id="greencrystal"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
+<!-- Computer randomly generate a number 19-120 (number is shown to the player)-->
+<!-- The player is provided 4 crystals
+    Each crystal contains a random number 1-12 (these numbers will be hidden) -->
+<!-- object of the game is to click on the 4 crystals provided to match the exact number shown on the screen. -->
+<!-- If the users guess > the number that the computer provided you loose. -->
+<!-- The numbers within the crystals should not change until user guess = computer random number or the user guess exceeds the computer random number. -->
+<!-- Player = computer number "Wins" ++  -->
+<!-- Player number > computer number "Losses" ++  -->
+<!-- Screen will need to display: 
+    4 crystals 
+    computer generated number
+    total so far
+    Wins
+    Losses  -->
