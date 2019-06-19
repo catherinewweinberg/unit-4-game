@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  font-family: "Gravitas One", cursive;
+  font-size: 60px;
+}
+.crystals {
+  align-items: center;
+  justify-content: space-around;
+  display: table;
+  margin: 40px;
+}
+
+body {
+  background-image: url("../images/Splatter-color-background-04-550x550.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  clear: both;
+}
+
+#redcrystal {
+  padding: 10px;
+}
+#bluecrystal {
+  padding: 10px;
+}
+#purplecrystal {
+  padding: 10px;
+}
+#greencrystal {
+  padding: 10px;
+}
+
+.directions {
+  background-color: lightgray;
+  width: 650px;
+  border: 10px solid darkgray;
+  padding: 15px;
+  margin: 40px;
+  font-size: 20px;
+  font-family: "Corben", cursive;
+}
+.container {
+  font-size: 25px;
+  width: 18%;
+  margin: 40px;
+  background-color: lightgray;
+  border: 10px solid darkgrey;
+  font-family: "Corben", cursive;
+}

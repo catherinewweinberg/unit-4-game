@@ -4,30 +4,61 @@
     <meta charset="UTF-8" />
     <title>Crystal Collector</title>
 
-    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gravitas+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Corben&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
 
   <body>
     <h1>Crystal Collector</h1>
 
+    <div class="directions">
+      <p>
+        <strong
+          >Its time to put your math skills to the test!
+          <br />
+          <br />
+          At the start of the game the computer will generate a random number.
+          You must utalize the crystals provided to match the number. But there
+          is a catch... Each crystal contains a hidden numeric value. If your
+          total matches the randomized computer value, you win. If your total
+          exceeds the randomized computer value, you loose.
+          <br />
+          <br />
+          Good Luck!</strong
+        >
+      </p>
+    </div>
+
     <div class="container">
-      <p id="wins">Wins:</p>
+      <p>Number to match: <span id="computerResult"></span></p>
 
-      <p id="losses">Losses:</p>
+      <p>Total So Far: <span id="playerTotal"></span></p>
 
-      <p id="playerTotal">Total So Far:</p>
+      <p>Wins: <span id="wins"></span></p>
 
-      <div class="crystals">
-        <div id="redcrystal">
-          <div id="bluecrystal">
-            <div id="purplecrystal">
-              <div id="greencrystal"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <p>Losses: <span id="losses"></span></p>
+    </div>
+    <div class="crystals">
+      <img src="assets/images/redgem.jpg" id="redcrystal" alt="red" />
+
+      <img src="assets/images/bluegem.jpg" id="bluecrystal" alt="blue" />
+
+      <img src="assets/images/purplegem.jpg" id="purplecrystal" alt="purple" />
+
+      <img src="assets/images/greengem.jpg" id="greencrystal" alt="green" />
     </div>
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
